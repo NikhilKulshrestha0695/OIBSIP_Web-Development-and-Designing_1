@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        
+        .demo-container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 3rem;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+        }
+        
+        h1 {
+            color: #4f8cff;
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+        }
+        
+        p {
+            color: #666;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        
+        .demo-btn {
+            display: inline-block;
+            background: linear-gradient(90deg, #4f8cff, #6f6fff);
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 15px rgba(79, 140, 255, 0.3);
+        }
+        
+        .demo-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(79, 140, 255, 0.4);
+        }
+        
+        .features {
+            margin-top: 2rem;
+            text-align: left;
+        }
+        
+        .features h3 {
+            color: #4f8cff;
+            margin-bottom: 1rem;
+        }
+        
+        .features ul {
+            list-style: none;
+            color: #555;
+        }
+        
+        .features li {
+            padding: 0.5rem 0;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+        
+        .features li::before {
+            content: "✓";
+            color: #4f8cff;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-container">
+        <h1>Landing Page Demo</h1>
+        <p>Experience a complete responsive landing page built with HTML, CSS, and JavaScript. Perfect for beginners learning web development fundamentals.</p>
+        
+        <a href="index.html" class="demo-btn">For Demo Click</a>
+        
+        <div class="features">
+            <h3>What You'll Learn:</h3>
+            <ul>
+                <li>HTML structure and semantic elements</li>
+                <li>CSS layout with Flexbox and Grid</li>
+                <li>Responsive design principles</li>
+                <li>JavaScript interactivity</li>
+                <li>Color theory and typography</li>
+                <li>Form handling and validation</li>
+                <li>Mobile-first development</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html> 
